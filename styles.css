@@ -1,0 +1,88 @@
+@import url("https://itsfoxdev.github.io/resources/fonts/gilroy/import.css");
+*{font-family:Avenir;}
+body{margin:0px;}
+
+#t1,#t2,#title{font-size:35px;text-align:center;}
+#t1{font-weight:900;}
+#t2{opacity:0.8;}
+#title{
+  width:100vw;
+  display:flex;
+  justify-content:center;
+  margin:0px;
+  margin-bottom:10px;
+}
+#icon{
+  margin:auto;
+  width:64px;
+  height:64px;
+  display:block;
+  margin-top:25px;
+}
+.bb{
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+  width:100px;
+  height:100px;
+  background:rgba(0,0,0,0.03);
+  border:1px solid rgba(0,0,0,0.08);
+  border-radius:10px;
+  cursor:pointer;
+  transition:filter .3s ease,border .3s ease,background .3s ease,opacity .3s ease;
+}
+.bb:hover{
+  filter:brightness(0.8);
+  background:rgba(0,0,0,0.06);
+  border:1px solid rgba(0,0,0,0.1);
+}
+.icon{
+  width: 75px;
+  height:75px;
+}
+.title{
+  text-align:center;
+  font-size:12px;
+}
+h1{text-align:center;margin:10px;}
+
+#r,#b{
+  width:calc(100vw - 50px);
+  max-width:750px;
+  margin:auto;
+  display:flex;
+  gap:5px;
+  flex-wrap:wrap;
+  justify-content: center;
+  margin-bottom:25px;
+}
+body.win .daw{opacity:0.3;}
+body.mac .dam{opacity:0.3;}
+body.lnx .dal{opacity:0.3;}
+#oss{
+  margin:auto;
+  width:150px;
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom:25px;
+}
+#oss button{
+  font-size:32px;
+  background:none;
+  border:none;
+  aspect-ratio: 1 / 1;
+  cursor:pointer;
+}
+#oss button i{
+  transition:background .3s ease;
+  background:black;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#oss button.osa i{
+  background: rgb(0,156,255);
+  background: linear-gradient(0deg, rgba(0,156,255,1) 16%, rgba(0,212,255,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
