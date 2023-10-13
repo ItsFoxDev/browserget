@@ -1,9 +1,9 @@
-/* Last updated: Sept 16, 2023 */
-/* Tor Browser */ var vtor='12.5.4';
-/* Vivaldi     */ var vviv='6.2.3105.48';
-/* Librewolf   */ var vliw='117.0.1-1';
+/* Last updated: Oct 13, 2023 */
+/* Tor Browser */ var vtor='13.0';
+/* Vivaldi     */ var vviv='6.2.3105.58';
+/* Librewolf   */ var vliw='118.0.2-1';
 /* Chromium    */ var vcrm='1197552';
-/* Maxthon     */ var vmax='7.1.6.1200';
+/* Maxthon     */ var vmax='7.1.6.1000';
 
 browser('r','Google Chrome','chrome','wml','https://dl.google.com/tag/s/chrome/update2/installers/ChromeSetup.exe','https://dl.google.com/chrome/mac/universal/stable/GGRO/googlechrome.dmg','https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb');
 browser('r','Microsoft Edge','edge','wml','https://c2rsetup.officeapps.live.com/c2r/downloadEdge.aspx?platform=Default&source=EdgeStablePage&Channel=Stable&language=en','https://go.microsoft.com/fwlink/?linkid=2093504&platform=Mac&Consent=0&channel=Stable','https://go.microsoft.com/fwlink?linkid=2149051&brand=M102');
@@ -20,7 +20,7 @@ browser('r','Librewolf','librewolf','wml','https://gitlab.com/api/v4/projects/44
 browser('r','Naver Whale','naverwhale','wm','https://installer-whale.pstatic.net/downloads/installers/WhaleSetup.exe','https://installer-whale.pstatic.net/downloads/installers/NaverWhale.dmg')
 browser('r','Avast Secure','avastsecure','wm','https://cdn-download.avastbrowser.com/avast/avast_secure_browser_setup.exe','https://cdn-download.avastbrowser.com/AvastSecureBrowserSetupARM.pkg?direct=1')
 browser('r','AVG Secure','avgsecure','wm','https://cdn-download.avgbrowser.com/avg/avg_secure_browser_setup.exe','https://cdn-download.avgbrowser.com/AVGSecureBrowserSetupARM.pkg','https://storage.googleapis.com/chromium-browser-snapshots/Mac_Arm/'+vcrm+'/chrome-mac.zip');
-browser('r','Maxthon','maxthon','wm','https://github.com/maxthon/Maxthon_mac/releases/download/'+vmax+'/Maxthon_mac_'+vmax+'.dmg','https://github.com/maxthon/Maxthon/releases/download/'+vmax+'/maxthon_'+vmax+'_x64.exe');
+browser('r','Maxthon','maxthon','wm','https://github.com/maxthon/Maxthon/releases/download/'+vmax+'/maxthon_'+vmax+'_x64.exe','https://github.com/maxthon/Maxthon_mac/releases/download/'+vmax+'/Maxthon_mac_'+vmax+'.dmg');
 
 browser('b','Chrome Beta','chromebeta','wml')
 browser('b','Chrome Canary','chromecanary','wml')
