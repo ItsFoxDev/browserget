@@ -7,7 +7,7 @@
 
 browser('r','Google Chrome','chrome','wml','https://dl.google.com/tag/s/chrome/update2/installers/ChromeSetup.exe','https://dl.google.com/chrome/mac/universal/stable/GGRO/googlechrome.dmg','https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb');
 browser('r','Microsoft Edge','edge','wml','https://c2rsetup.officeapps.live.com/c2r/downloadEdge.aspx?platform=Default&source=EdgeStablePage&Channel=Stable&language=en','https://go.microsoft.com/fwlink/?linkid=2093504&platform=Mac&Consent=0&channel=Stable','https://go.microsoft.com/fwlink?linkid=2149051&brand=M102');
-browser('r','Arc','arc','m','https://releases.arc.net/release/Arc-latest.dmg');
+browser('r','Arc','arc','m','','https://releases.arc.net/release/Arc-latest.dmg');
 browser('r','Firefox','firefox','wml','https://download.mozilla.org/?product=firefox-latest-ssl&os=win64','https://download.mozilla.org/?product=firefox-latest-ssl&os=osx','https://download.mozilla.org/?product=firefox-latest-ssl&os=linux64');
 browser('r','Opera','opera','wml','https://net.geo.opera.com/opera/stable/windows','https://net.geo.opera.com/opera/stable/mac','https://download.opera.com/download/get/?partner=www&opsys=Linux');
 browser('r','Opera GX','operagx','wm','https://net.geo.opera.com/opera_gx/stable/windows','https://net.geo.opera.com/opera_gx/stable/mac');
